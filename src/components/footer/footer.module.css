@@ -1,3 +1,83 @@
+
 .container {
   display: flex;
+  gap: 3rem;
+  margin-top: 7rem;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(1deg, rgba(255,237,237,0.85) 0% rgba(255,255,255,0) 14rem )
+}
+
+.container > span {
+  color: var(--themeRed);
+  font-weight: bold;
+}
+
+.inforFooter > * h1 {
+  color: var(--themeRed);
+  padding: 1rem 0;
+} 
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+
+}
+
+.departamentos {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.departamentos :nth-child(2),
+.departamentos :nth-child(3),
+.departamentos :nth-child(4) {
+  font-size: 1.2rem;
+}
+
+.institucional {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.institucional :nth-child(2),
+.institucional :nth-child(3),
+.institucional :nth-child(4),
+.institucional :nth-child(5) {
+  font-size: 1.2rem;
+}
+
+
+.logo > span {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.midiaFooter {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social > * {
+  fill: var(--themeRed);
+}
+
+.inforFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.atendimento > p {
+  font-size: 1.2rem;
+  padding: .3rem 0;
 }

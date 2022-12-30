@@ -57,3 +57,13 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  width: max-content;
+  padding: 1rem;
+  border-radius: 4.3rem;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: var(--themeRed);
+}

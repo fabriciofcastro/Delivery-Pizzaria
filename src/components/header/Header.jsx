@@ -12,7 +12,7 @@ export default function Header ()
     <header className={ style.header }>
       <div className={ style.logo }>
         <Image src={ Logo } width={ 100 } height={ 100 } alt="Logo da empresa" />
-        <span>Delicius</span>
+        <span>Delicious</span>
       </div>
       <nav className={ style.menu }>
         <Link href='/' >Home</Link>
